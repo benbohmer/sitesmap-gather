@@ -1,0 +1,13 @@
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+# copied from https://gist.github.com/gvvynplaine/e748dbcc787cae81ff2e6b88a4a9fa9e
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
